@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veras Paint a Pixel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+
+</head>
+<body>
+    
+    <div class="container">
+   
+    
+    <div id="colorpicker" class="colorpicker">
+   
+    </div>
+
+    <div id="pixelgrid">
+    
+    </div>
+
+    <div class="containerBottom">
+   
+    <div>
+    <button id="clear">Clear Canvas</button>
+    
+    <button id="toggleGrid">Toggle Grid</button>
+
+   
+    <button id="saveCanvas" title="Save a PNG image of your painting">Save Painting</button>
+
+
+    
+    <div>Canvas Size:</div>
+    <div id="gridSizeOptions">
+        <label><input type="radio" name="gridSize" value="50"> Big</label>
+        <label><input type="radio" name="gridSize" value="25" checked> Medium</label>
+        <label><input type="radio" name="gridSize" value="10"> Small</label>
+    </div>
+    </div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+</body>
+</html>
